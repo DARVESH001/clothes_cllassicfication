@@ -3,13 +3,13 @@
 Detailed Document for Your Clothes Classification Project
 This document outlines the research, development process, and evaluation results for your clothes classification project using TensorFlow and Keras.
 
-1. Introduction
+##1. Introduction
 
 Project Goal: Clearly state the objective of your project, which is to accurately classify different types of clothing items using deep learning techniques.
 
 Dataset: Specify the Fashion-MNIST dataset as the source of your image data. Highlight its characteristics, such as the number of classes (10) and the image size (28x28 pixels).
 
-2. Data Preprocessing
+##2. Data Preprocessing
 
 Data Loading: The Fashion-MNIST dataset was loaded using the tf.keras.datasets.mnist module. This module provides a convenient way to access the dataset, which is already pre-split into training and testing sets.
 
@@ -24,7 +24,7 @@ Shifting: Shifting images horizontally or vertically by up to 20% of their width
 Horizontal Flipping: Flipping images horizontally.
 Zooming: Zooming images in or out by up to 20%.
 
-Model Architecture
+## Model Architecture
 
 Input Layer:
 
@@ -94,7 +94,7 @@ Batch Size: 1500
 Early Stopping: Early stopping is implemented to prevent overfitting. The training process is stopped if the validation loss does not improve for a certain number of epochs.
 The training process involves iteratively feeding batches of training data to the model, computing the loss, and updating the model's weights using the optimizer. The validation set is used to monitor the model's performance and prevent overfitting.
 
-Model Evaluation:
+## Model Evaluation:
 
 After training, the model is evaluated on the test set. The following metrics are used to assess the model's performance:
 
@@ -102,7 +102,7 @@ Accuracy: Overall accuracy measures the proportion of correctly classified sampl
 Confusion Matrix: A confusion matrix visualizes the model's predictions and correct classifications. It shows the number of samples that were correctly classified, incorrectly classified, and misclassified as a particular class.
 By analyzing these metrics, we can gain insights into the model's strengths and weaknesses and identify potential areas for improvement.
 
-Performance Metrics:
+## Performance Metrics:
 
 Accuracy: The model achieved an accuracy of approximately 98 % on the test set.
 Confusion Matrix: A confusion matrix can be visualized to understand the model's performance on each class and identify potential misclassifications.
