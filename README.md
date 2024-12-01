@@ -3,13 +3,13 @@
 Detailed Document for Your Clothes Classification Project
 This document outlines the research, development process, and evaluation results for your clothes classification project using TensorFlow and Keras.
 
-##1. Introduction
+## 1. Introduction
 
 Project Goal: Clearly state the objective of your project, which is to accurately classify different types of clothing items using deep learning techniques.
 
 Dataset: Specify the Fashion-MNIST dataset as the source of your image data. Highlight its characteristics, such as the number of classes (10) and the image size (28x28 pixels).
 
-##2. Data Preprocessing
+## 2. Data Preprocessing
 
 Data Loading: The Fashion-MNIST dataset was loaded using the tf.keras.datasets.mnist module. This module provides a convenient way to access the dataset, which is already pre-split into training and testing sets.
 
