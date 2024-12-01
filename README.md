@@ -89,8 +89,8 @@ Model Training:
 
 The model is trained using the following hyperparameters:
 
-Epochs: 15
-Batch Size: 32
+Epochs: 20
+Batch Size: 1500
 Early Stopping: Early stopping is implemented to prevent overfitting. The training process is stopped if the validation loss does not improve for a certain number of epochs.
 The training process involves iteratively feeding batches of training data to the model, computing the loss, and updating the model's weights using the optimizer. The validation set is used to monitor the model's performance and prevent overfitting.
 
@@ -104,8 +104,7 @@ By analyzing these metrics, we can gain insights into the model's strengths and 
 
 Performance Metrics:
 
-Accuracy: The model achieved an accuracy of approximately X% on the test set.
-Precision, Recall, F1-score: The detailed performance metrics for each class can be presented in a table or visualized using a confusion matrix.
+Accuracy: The model achieved an accuracy of approximately 98 % on the test set.
 Confusion Matrix: A confusion matrix can be visualized to understand the model's performance on each class and identify potential misclassifications.
 Analysis of Results:
 
